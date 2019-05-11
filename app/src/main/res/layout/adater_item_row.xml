@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="itemViewModel" type="com.wipro.model.Country.Row"/>
+    </data>
+
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:paddingTop="@dimen/dime_10dp"
+        android:paddingBottom="@dimen/dime_10dp"
+        android:paddingEnd="@dimen/dime_10dp"
+        android:paddingStart="@dimen/dime_10dp">
+
+    <TextView
+            tools:text="Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtVTitleId"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_18sp"
+            android:textColor="@color/font_title_color"
+            android:text="@{itemViewModel.title}"/>
+    <TextView
+            tools:text="Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtVDescriptionId"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:layout_marginEnd="@dimen/dimen_8dp"
+            android:text="@{itemViewModel.description}"
+            android:layout_below="@+id/txtVTitleId"
+            android:textSize="@dimen/font_14sp"
+    android:layout_toStartOf="@+id/imageViewId"/>
+    <ImageView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/imageViewId"
+            android:layout_marginTop="@dimen/margin_12dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/txtVTitleId"
+            app:imageUrl='@{itemViewModel.imageHref}'/>
+</RelativeLayout>
+</layout>
