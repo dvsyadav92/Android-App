@@ -1,4 +1,4 @@
-package com.wipro
+package com.dvs
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

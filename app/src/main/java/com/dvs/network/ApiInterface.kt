@@ -1,9 +1,8 @@
-package com.wipro.network
+package com.dvs.network
 
-import com.wipro.model.Country
+import com.dvs.model.Country
 import retrofit2.Call
 import retrofit2.http.GET
-import retrofit2.http.Query
 
 /**
  * Created by Digvijay Singh on 11/5/19.

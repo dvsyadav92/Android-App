@@ -1,9 +1,9 @@
-package com.wipro.Adapter
+package com.dvs.Adapter
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.wipro.databinding.AdaterItemRowBinding
-import com.wipro.model.Country
+import com.dvs.databinding.AdaterItemRowBinding
+import com.dvs.model.Country
 
 /**
  * Created by Digvijay Singh on 11/5/19.

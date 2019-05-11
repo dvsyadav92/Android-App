@@ -4,7 +4,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="itemViewModel" type="com.wipro.model.Country.Row"/>
+        <variable name="itemViewModel" type="com.dvs.model.Country.Row"/>
     </data>
 
 

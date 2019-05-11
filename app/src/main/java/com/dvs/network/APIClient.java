@@ -1,4 +1,4 @@
-package com.wipro.network;
+package com.dvs.network;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;

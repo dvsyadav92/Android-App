@@ -1,4 +1,4 @@
-package com.wipro.model
+package com.dvs.model
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

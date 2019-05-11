@@ -1,4 +1,4 @@
-package com.wipro.views
+package com.dvs.views
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.databinding.DataBindingUtil
@@ -7,11 +7,11 @@ import android.support.v4.widget.SwipeRefreshLayout
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
-import com.wipro.Adapter.RowListAdapter
-import com.wipro.CountryViewModel
-import com.wipro.R
-import com.wipro.databinding.ActivityMainBinding
-import com.wipro.model.Country
+import com.dvs.Adapter.RowListAdapter
+import com.dvs.CountryViewModel
+import com.dvs.R
+import com.dvs.databinding.ActivityMainBinding
+import com.dvs.model.Country
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**

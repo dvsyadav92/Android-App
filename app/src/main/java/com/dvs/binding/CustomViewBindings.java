@@ -1,9 +1,9 @@
-package com.wipro.binding;
+package com.dvs.binding;
 
 import android.databinding.BindingAdapter;
 import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
-import com.wipro.R;
+import com.dvs.R;
 
 /**
  * Created by Digvijay Singh on 11/5/19.

@@ -1,11 +1,11 @@
-package com.wipro
+package com.dvs
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
 import android.databinding.ObservableField
 import android.databinding.ObservableInt
 import android.view.View
-import com.wipro.model.Country
-import com.wipro.model.CountryBase
+import com.dvs.model.Country
+import com.dvs.model.CountryBase
 
 
 /**

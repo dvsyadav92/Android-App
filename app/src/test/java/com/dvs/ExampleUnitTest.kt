@@ -1,4 +1,4 @@
-package com.wipro
+package com.dvs
 
 import org.junit.Test
 

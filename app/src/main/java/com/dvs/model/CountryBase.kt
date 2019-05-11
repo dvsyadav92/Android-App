@@ -1,10 +1,9 @@
-package com.wipro.model
+package com.dvs.model
 
 import android.arch.lifecycle.MutableLiveData
 import android.databinding.BaseObservable
-import android.databinding.ObservableBoolean
-import com.wipro.network.APIClient
-import com.wipro.network.ApiInterface
+import com.dvs.network.APIClient
+import com.dvs.network.ApiInterface
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
