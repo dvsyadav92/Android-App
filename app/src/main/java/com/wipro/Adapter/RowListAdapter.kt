@@ -20,6 +20,7 @@ class RowListAdapter(var countryList: MutableList<Country.Row>?) : RecyclerView.
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        /*Bind the data with row spesific */
         holder.bind(countryList?.get(position))
     }
 

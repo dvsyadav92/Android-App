@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
         viewModel = ViewModelProviders.of(this).get(CountryViewModel::class.java)
         binding.myViewModel=viewModel
+
+        /*initialiazed the listner  and make api request to fetch country details*/
         setupListner()
     }
 

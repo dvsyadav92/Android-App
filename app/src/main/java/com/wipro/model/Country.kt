@@ -7,11 +7,8 @@ import com.google.gson.annotations.SerializedName
  * Created by Digvijay Singh on 11/5/19.
  */
 class Country(@SerializedName("title")
-              @Expose
-              var title: String,
-              @SerializedName("rows")
-@Expose
-var rows: MutableList<Row>? ) {
+              @Expose var title: String,
+              @SerializedName("rows") @Expose var rows: MutableList<Row>? ) {
 
 
 
