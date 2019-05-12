@@ -7,8 +7,8 @@
         <variable name="itemViewModel" type="com.dvs.model.Country.Row"/>
     </data>
 
-
 <RelativeLayout
+        android:id="@+id/rlRow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
        android:paddingTop="@dimen/dime_10dp"

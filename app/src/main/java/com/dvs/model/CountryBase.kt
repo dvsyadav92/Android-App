@@ -2,8 +2,8 @@ package com.dvs.model
 
 import android.arch.lifecycle.MutableLiveData
 import android.databinding.BaseObservable
-import com.dvs.network.APIClient
 import com.dvs.network.ApiInterface
+import com.dvs.network.NetworkClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -16,7 +16,7 @@ class CountryBase : BaseObservable() {
 
     /*initializes api client and make api request and add it to the que*/
     fun fetchList() {
-        val apiInterface = APIClient.getClient().create(ApiInterface::class.java)
+        val apiInterface = NetworkClient.getClient().create(ApiInterface::class.java)
         val userList = apiInterface.doGetUserList()
         userList.enqueue(object : Callback<Country> {
             override fun onResponse(call: Call<Country>, response: Response<Country>) {
