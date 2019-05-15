@@ -6,4 +6,9 @@
     <dimen name="font_14sp">14sp</dimen>
     <dimen name="margin_12dp">12dp</dimen>
     <dimen name="mergin15dp">15dp</dimen>
+    <dimen name="mrgin_30dp">30dp</dimen>
+    <dimen name="img_height">100dp</dimen>
+    <dimen name="img_width">140dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+
 </resources>

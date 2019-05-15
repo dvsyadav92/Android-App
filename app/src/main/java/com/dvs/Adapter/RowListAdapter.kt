@@ -12,6 +12,11 @@ class RowListAdapter(var countryList: MutableList<Country.Row>?) : RecyclerView.
     override fun onCreateViewHolder(parent: ViewGroup, p1: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val binding = AdaterItemRowBinding.inflate(inflater)
+        val lp = RecyclerView.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.WRAP_CONTENT
+        )
+        binding.root.layoutParams =lp
         return ViewHolder(binding)
     }
 

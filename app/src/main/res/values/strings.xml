@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MVVM Assignment</string>
     <string name="no_records_found">No Records Found</string>
+    <string name="image_str">Image</string>
 </resources>
