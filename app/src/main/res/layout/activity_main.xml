@@ -22,12 +22,12 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="2dp">
+                android:layout_marginTop="@dimen/margin_2dp">
             <TextView android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:textStyle="bold"
                       android:gravity="center_horizontal"
-                      android:textColor="@color/black_color"
+                      android:textColor="@color/font_black"
                       android:textAllCaps="true"
                       android:text="@{myViewModel.pageTitle}"/>
         </android.support.v7.widget.Toolbar>

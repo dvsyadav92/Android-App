@@ -27,7 +27,7 @@
                 android:textStyle="bold"
                 android:textSize="@dimen/font_18sp"
                 android:textColor="@color/font_title_color"
-                android:text="@{itemViewModel.title}" android:layout_marginEnd="8dp"
+                android:text="@{itemViewModel.title}" android:layout_marginEnd="@dimen/dimen_8dp"
                 android:layout_marginBottom="@dimen/dimen_8dp"
         />
         <TextView
@@ -49,7 +49,7 @@
                 android:scaleType="fitCenter"
                 tools:srcCompat="@tools:sample/avatars"
                 android:id="@+id/imageViewId"
-                app:imageUrl='@{itemViewModel.imageHref}'
+                app:imageUrlLoad='@{itemViewModel.imageHref}'
                 tools:visibility="visible"
                 android:layout_marginEnd="@dimen/dimen_8dp"
                 app:layout_constraintEnd_toEndOf="parent"

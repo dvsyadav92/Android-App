@@ -12,7 +12,7 @@ import com.dvs.R;
  */
 public class CustomViewBindings {
 
-    @BindingAdapter("imageUrl")
+    @BindingAdapter("imageUrlLoad")
     public static void bindRecyclerViewAdapter(ImageView imageView, String imageUrl) {
         if (imageUrl != null) {
             if (imageView.getTag(R.id.imageViewId) == null || !imageView.getTag(R.id.imageViewId).equals(imageUrl)) {
